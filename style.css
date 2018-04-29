@@ -1,0 +1,57 @@
+html{background-color: #3481a9; }
+
+body
+{
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 10pt;
+	color: #000;
+	background-color: #cff; /*#b3d6ea*/
+	width: 800px;
+	margin: 10px auto;
+}
+
+/* Tags */
+p{margin:15px 30px;}
+ul{list-style-type:none; margin:0;}
+h1{padding: 10px; margin: 0;}
+h3{padding: 10px; margin: 0;}
+h4{padding: 15px; margin: 0;}
+h5{padding: 5px 20px; margin: 0;}
+
+/* Lists */
+.menu li, .foot li, .logo li, .gallerycategories li, .gallerylist li{display: inline;}
+
+/* Main */
+.logo{padding: 0; margin: 0; text-align:center;}
+.gallery {padding: 5px 30px; text-align: center;}
+.gallerytitle{font-weight: bold;}
+.galleryimage{float: middle;}
+.gallerycategories{font-size: .75em;}
+
+.header{text-align: center; background-color: #cff; padding: 5px 0;;}
+.menu{color: #666; background-color: #b3d6ea; padding: 3px 0; font-size: 1em; margin: 0 2px;}
+.foot{color: #888; background-color: #cff; text-align: center; padding: 10px; font-size: .85em; margin:0;}
+
+.menuItem {margin: 2%;}
+
+.mainList{margin:20px 30px; list-style-type: disc;}
+.mainList li{padding-bottom: 10px;}
+
+.small{font-size: .65em;}
+
+/* Links */
+a, a:hover{color: #483d8b;}
+.menu a, .menu a:hover{color: #483d8b;}
+.foot a, .foot a:hover{color: #888;}
+
+a{padding: 0; font-weight: bold;}
+a:hover{padding: 0; text-decoration: none;}
+.menu a{padding: 0 10px; font-weight: bold; text-decoration: none;}
+.menu a:hover{padding: 0 10px; text-decoration: underline;}
+.foot a{padding: 0; font-weight: bold;}
+.foot a:hover{padding: 0; text-decoration: none;}
+
+/* Borders */
+a img{border: 0px;}
+/*body{border:1px solid #036;}*/
+.menu{border:1px solid #08567e;}
